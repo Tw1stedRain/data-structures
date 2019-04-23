@@ -1,9 +1,15 @@
-# data-structures
+# Data Structures
 
 # Table of Contents
-[Reverse Array](#Reverse)
-[Array Shift](#Shift)
-[Binary Search](#search)
+* [Reverse Array](#Reverse)
+
+* [Array Shift](#Shift)
+
+* [Binary Search](#search)
+
+* [Insertions](#insertions)
+
+
 
 ## Reverse an Array
 <a name="Reverse"></a>
@@ -19,7 +25,8 @@ We used a swap value while itterating over the array to output the result.
 the Big O: O(n)
 
 ### Solution
-[reverse array code](challenges/array_reverse/ArrayReverse.java)
+[reverse array code](../src/main/java/Array_reverse)
+
 ![reverse array](assests/arrayReverse.jpg)
 
 ## Shift an Array
@@ -37,8 +44,9 @@ After a bit of trial and error, we created a new array with the length of the or
 
 
 ### Solution
-![reverse array](assests/arrayShift.jpg)
-[shift array code](challenges/array_shift/src/main/java/array_shift/App.java)
+[shift array code](../src/main/java/Array_shift)
+
+![shift array](assests/arrayShift.jpg)
 
 ## Binary Search
 <a name="search"></a>
@@ -53,8 +61,32 @@ we had a for loop that itterated over the array, inside of the foor loop, we hav
 
 
 ### Solution
-[reverse array code](challenges/BinarySearch/src/main/java/BinarySearch/App.java)
-![reverse array](assests/binarySearch.jpg)
+[Binary Search code](src/main/java/Array_reverse)
+
+![binary search](assests/binarySearch.jpg)
+
+## Linked List Insertions
+<a name="insertions"></a>
+
+### Challenge
+1. 
+2. 
+3. 
+
+
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+1. 
+2. 
+3. 
+
+
+
+### Solution
+[linked list insertions code](src/main/java/)
+
+![insertions](assests/insertions.jpg)
 
 
 
