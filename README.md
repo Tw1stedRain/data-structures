@@ -9,6 +9,8 @@
 
 * [Insertions](#insertions)
 
+* [kth from the end](#kth)
+
 
 
 ## Reverse an Array
@@ -84,9 +86,22 @@ we had a for loop that itterated over the array, inside of the foor loop, we hav
 
 
 ### Solution
-[linked list insertions code](src/main/java/)
+[linked list: insertions code](src/main/java/)
 
 ![insertions](assests/insertions.jpg)
 
+## kth from the end of a Linked List
+<a name="kth"></a>
+
+### Challenge
+Given a filled linked list, you should be able to run the kth from the end method to return the value of the node k number of times from the end.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+We built a for loop that itterates linkedList.size()-k over the linked list, which then returns the value of the node at k.
+
+### Solution
+[linked list: kth from end code]()
+![kth from end](assests/kth.jpg)
 
 
