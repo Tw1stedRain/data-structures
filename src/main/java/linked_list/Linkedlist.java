@@ -1,5 +1,7 @@
 package linked_list;
 
+import java.util.List;
+
 public class Linkedlist {
     public Node head;
 
@@ -17,6 +19,10 @@ public class Linkedlist {
             val = currentNode.value;
         }
         return val;
+    }
+
+    public static int mergeList(Linkedlist, Linkedlist) {
+
     }
 
 }

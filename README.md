@@ -11,6 +11,8 @@
 
 * [kth from the end](#kth)
 
+* [Merged Linked List](#merged)
+
 
 
 ## Reverse an Array
@@ -102,6 +104,24 @@ We built a for loop that itterates linkedList.size()-k over the linked list, whi
 
 ### Solution
 [linked list: kth from end code]()
+
 ![kth from end](assests/kth.jpg)
+
+
+## Merge two Linked Lists
+<a> name="merged"</a>
+
+### Challenge
+Take in two linked lists. Merge the two together, alternating between the two original linked list's nodes. Output the head of the linked list.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Initial Approach: After first determining which given linked list has the longer length, we created a for loop that iterates over the two given, adding nodes from each back and forth into a new linked list. 
+
+### Solution
+[linked list: merge]()
+
+![merged linked list](assests/merged.jpg)
+
 
 
