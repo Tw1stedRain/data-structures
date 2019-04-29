@@ -1,13 +1,37 @@
 package stacksAndQueues;
 
-public class Queue {
+public class Queue<Generic> {
 
-    public Node front;
-    public Node back;
+    public Node<Generic> front;
+    public Node<Generic> back;
 
-    public Queue(Node front, Node back) {
-        this.front = front;
-        this.back = back;
+    public Queue() {
+        this.front = null;
+        this.back = null;
     }
 
+    public void enquque(Generic value) {
+        if (front == null) {
+            front = new Node<>(value, null);
+            back = front;
+        }
+        Node<Generic> next = new Node<>(value, back);
+        back = next;
+    }
+
+    public Generic dequque() {
+        if (front == null) {
+            return null;
+        }
+        Generic result = front.value;
+        front = front.next;
+        return result;
+    }
+
+    public Generic peek() {
+        if (front == null) {
+            return null;
+        }
+        return front.value;
+    }
 }

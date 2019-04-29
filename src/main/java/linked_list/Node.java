@@ -1,11 +1,11 @@
 package linked_list;
 
-public class Node {
+public class Node<Generic> {
 
-    public int value;
+    public Generic value;
     public Node next;
 
-    public Node(int value, Node next) {
+    public Node(Generic value, Node next) {
         this.value = value;
         this.next = next;
     }
