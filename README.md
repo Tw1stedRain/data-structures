@@ -124,4 +124,25 @@ Initial Approach: After first determining which given linked list has the longer
 ![merged linked list](assests/merged.jpg)
 
 
+## Stacks and Queues
 
+### Challenge
+<!-- Description of the challenge -->
+Create a stack and a queue. Within stack, create methods push, pop, and peek. Within queue create methods enqueue, dequque, and peek.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+#### For the Stacks
+`.push` - push takes in a value. Behind the scenes it creates a new Node with that value, and points it at the current top. This new Node becomes the new top.
+
+`.pop` - pop removes the current top. the pop method then turns the next node into the new top, and returns the value of the removed Node.
+
+`.peek` - to be used before using .push or .pop. peek takes a look at the value of the current top and returns it.
+
+#### For the Queues
+
+`.enquque` - takes in a value. Behind the scenes it cretes a new Node with that value, and points it at the current back, this Node becomes the new back
+
+`.dequque` - dequque removes the current front, it makes the next Node the new front. it then returns the value of the removed Node.
+
+`.peek` - to be used before using .push or .pop. peek takes a look at the value of the current front and returns it.
