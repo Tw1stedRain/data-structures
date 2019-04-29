@@ -111,7 +111,7 @@ We built a for loop that itterates linkedList.size()-k over the linked list, whi
 
 
 ## Merge two Linked Lists
-<a> name="merged"</a>
+<a name="merged"></a>
 
 ### Challenge
 Take in two linked lists. Merge the two together, alternating between the two original linked list's nodes. Output the head of the linked list.
@@ -127,7 +127,7 @@ Initial Approach: After first determining which given linked list has the longer
 
 
 ## Stacks and Queues
-<a> name="sandq"</a>
+<a name="sandq"></a>
 
 ### Challenge
 <!-- Description of the challenge -->
