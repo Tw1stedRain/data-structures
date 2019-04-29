@@ -14,8 +14,10 @@ public class Queue<Generic> {
         if (front == null) {
             front = new Node<>(value, null);
             back = front;
+            return;
         }
-        Node<Generic> next = new Node<>(value, back);
+        Node<Generic> next = new Node<>(value, null);
+        back.next = next;
         back = next;
     }
 
