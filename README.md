@@ -13,6 +13,8 @@
 
 * [Merged Linked List](#merged)
 
+* [Stacks and Quques](#sandq)
+
 
 
 ## Reverse an Array
@@ -125,6 +127,7 @@ Initial Approach: After first determining which given linked list has the longer
 
 
 ## Stacks and Queues
+<a> name="sandq"</a>
 
 ### Challenge
 <!-- Description of the challenge -->
