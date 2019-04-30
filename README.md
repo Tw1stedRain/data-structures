@@ -13,6 +13,8 @@
 
 * [Merged Linked List](#merged)
 
+* [PseudoQ](#PseudoQ)
+
 
 
 ## Reverse an Array
@@ -100,7 +102,7 @@ Given a filled linked list, you should be able to run the kth from the end metho
 
 ### Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-We built a for loop that itterates linkedList.size()-k over the linked list, which then returns the value of the node at k.
+We built a for loop that iterates linkedList.size()-k over the linked list, which then returns the value of the node at k.
 
 ### Solution
 [linked list: kth from end code]()
@@ -123,5 +125,20 @@ Initial Approach: After first determining which given linked list has the longer
 
 ![merged linked list](assests/merged.jpg)
 
+
+## Implement a Queue using two Stacks.
+<a name="PseudoQ"><a/>
+### Challenge
+<!-- Description of the challenge -->
+Find a way to perform a dequeue on a stack.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+We created a holder stack and a primary stack. The result being the bottom of the primary stack. To achieve this we cycled through the primary stack, moving each node from it into the holder stack in reverse order. Then we did a `.pop` on the holder stack, receiving the bottom of the original. We then moved everything back into the original minus the bottom.
+
+### Solution
+[pseudoQ](data-structures/src/main/java/stacksAndQueues/PseudoQueue.java)
+
+![pseudo Queue](assests/pseudoQueue.jpg)
 
 

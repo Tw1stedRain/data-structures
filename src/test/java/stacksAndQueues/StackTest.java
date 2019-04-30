@@ -67,4 +67,19 @@ public class StackTest {
 
     }
 
+
+    @Test
+    public void testPopBug() {
+        Stack stack = new Stack();
+        stack.push(7);
+        stack.push(8);
+
+        assertEquals(8, stack.pop());
+        assertEquals(7, stack.peek());
+
+        assertEquals(7, stack.pop());
+        assertEquals(null, stack.peek());
+    }
+
 }
+
