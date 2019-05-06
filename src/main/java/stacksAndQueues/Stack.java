@@ -10,26 +10,27 @@ public class Stack<Generic> {
     }
 
     public void push(Generic value) {
-        if (top == null) {
-            top = new Node<>(value, null);
+        if (this.top == null) {
+            this.top = new Node<>(value, null);
+        } else {
+            Node<Generic> next = new Node<>(value, this.top);
+            this.top = next;
         }
-        Node<Generic> next = new Node<>(value, top);
-        top = next;
     }
 
     public Generic pop() {
-        if (top == null) {
+        if (this.top == null) {
             return null;
         }
-        Generic result = top.value;
-        top = top.next;
+        Generic result = this.top.value;
+        this.top = this.top.next;
         return result;
     }
 
     public Generic peek() {
-        if (top == null) {
+        if (this.top == null) {
             return null;
         }
-        return top.value;
+        return this.top.value;
     }
 }
