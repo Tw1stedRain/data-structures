@@ -1,7 +1,6 @@
-package linked_list;
+package stacksAndQueues;
 
 public class Node<Generic> {
-
     public Generic value;
     public Node next;
 
@@ -9,5 +8,4 @@ public class Node<Generic> {
         this.value = value;
         this.next = next;
     }
-
 }

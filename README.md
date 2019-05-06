@@ -9,6 +9,12 @@
 
 * [Insertions](#insertions)
 
+* [kth from the end](#kth)
+
+* [Merged Linked List](#merged)
+
+* [PseudoQ](#PseudoQ)
+
 
 
 ## Reverse an Array
@@ -84,9 +90,55 @@ we had a for loop that itterated over the array, inside of the foor loop, we hav
 
 
 ### Solution
-[linked list insertions code](src/main/java/)
+[linked list: insertions code](src/main/java/)
 
 ![insertions](assests/insertions.jpg)
 
+## kth from the end of a Linked List
+<a name="kth"></a>
+
+### Challenge
+Given a filled linked list, you should be able to run the kth from the end method to return the value of the node k number of times from the end.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+We built a for loop that iterates linkedList.size()-k over the linked list, which then returns the value of the node at k.
+
+### Solution
+[linked list: kth from end code]()
+
+![kth from end](assests/kth.jpg)
+
+
+## Merge two Linked Lists
+<a> name="merged"</a>
+
+### Challenge
+Take in two linked lists. Merge the two together, alternating between the two original linked list's nodes. Output the head of the linked list.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Initial Approach: After first determining which given linked list has the longer length, we created a for loop that iterates over the two given, adding nodes from each back and forth into a new linked list. 
+
+### Solution
+[linked list: merge]()
+
+![merged linked list](assests/merged.jpg)
+
+
+## Implement a Queue using two Stacks.
+<a name="PseudoQ"><a/>
+### Challenge
+<!-- Description of the challenge -->
+Find a way to perform a dequeue on a stack.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+We created a holder stack and a primary stack. The result being the bottom of the primary stack. To achieve this we cycled through the primary stack, moving each node from it into the holder stack in reverse order. Then we did a `.pop` on the holder stack, receiving the bottom of the original. We then moved everything back into the original minus the bottom.
+
+### Solution
+[pseudoQ](data-structures/src/main/java/stacksAndQueues/PseudoQueue.java)
+
+![pseudo Queue](assests/pseudoQueue.jpg)
 
 
