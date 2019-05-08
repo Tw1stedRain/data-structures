@@ -57,4 +57,8 @@ public class BinaryTree<Gen> {
         }
         output.add(node.value);
     }
+
+    public void bredth(BinaryTree tree) {
+
+    }
 }

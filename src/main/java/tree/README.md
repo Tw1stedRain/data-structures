@@ -36,3 +36,19 @@ I modified my BST `contains` method. Now instead of returning `true`/`false` whe
 ![FizzBuzz Tree](../../../../assests/fizzBuzz1.jpg)
 
 ![FizzBuzz Tree](../../../../assests/fizzBuzz2.jpg)
+
+# Breadth-first
+<!-- Short summary or background information -->
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; print every visited node’s value.
+
+## Challenge
+<!-- Description of the challenge -->
+Write a method that takes in a BinaryTree and traverses it breadth first. Meaning each level of the tree, left to right, Node by Node.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I moved my tree into a queue. While it went through the queue, the method would then print out the value of the current front node. The method then recalls itself for the left, then right, going until the tree is complete.
+
+## Solution
+<!-- Embedded whiteboard image -->
+![Bredth First Tree](../../../../assests/bredthFirst.jpg)
