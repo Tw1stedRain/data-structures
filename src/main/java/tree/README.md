@@ -51,4 +51,20 @@ I moved my tree into a queue. While it went through the queue, the method would 
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Bredth First Tree](../../../../assests/bredthFirst.jpg)
+![Breadth First Tree](../../../../assests/bredthFirst.jpg)
+
+# Find the Maximum Value in a Binary Tree
+<!-- Short summary or background information -->
+Write a function called `find-maximum-value` which takes binary tree as its only input. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Challenge
+<!-- Description of the challenge -->
+Write a method that takes in a tree, traverses over it, finds the maximum valued node within that tree, then returns the max value.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I created a method that contains a `max` variable. In that method we traverse over the tree, every time we come across a value greater than the current `max` value, that value becomes the new `max`. When the entire tree has been traversed, we return the `max`.
+
+## Solution
+<!-- Embedded whiteboard image -->
+![Max Tree Value](../../../../assests/treeMax.jpg)
