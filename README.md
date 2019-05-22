@@ -17,6 +17,8 @@
 
 * [PseudoQ](#PseudoQ)
 
+* [Lecture notes (sorts)](../challenges/README.md)
+
 
 
 ## Reverse an Array
