@@ -6,6 +6,7 @@
 
 * [Merge Sort](mergeSort.md)
 
+* [Quick Sort](quickSort.md)
 # Challenge Summary
 
 Create a full lecture for an insertion sort to be taught to a 301 level student.
@@ -31,6 +32,18 @@ Research lecture materials for an merge sort lecture.
 ## Approach & Efficiency
 
 Split the array in half, determine the correct order of teh split half, recall the method until the entire thing is done.
+
+## Solution
+<!-- Embedded whiteboard image -->
+
+# Challenge Summary
+Create a full lecture for an quick sort to be taught to a 301 level student.
+
+## Challenge Description
+Research lecture materials for an quick sort lecture.
+
+## Approach & Efficiency
+
 
 ## Solution
 <!-- Embedded whiteboard image -->

@@ -17,7 +17,7 @@
 
 * [PseudoQ](#PseudoQ)
 
-* [Lecture notes (sorts)](../challenges/README.md)
+* [Lecture notes (sorts)](challenges/README.md)
 
 
 
