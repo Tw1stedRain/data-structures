@@ -21,6 +21,8 @@
 
 * [Hashset](#hash)
 
+* [Repeated Word](#repeat)
+
 
 
 ## Reverse an Array
@@ -174,6 +176,8 @@ We created a holder stack and a primary stack. The result being the bottom of th
 `.peek` - to be used before using .push or .pop. peek takes a look at the value of the current front and returns it.
 
 ## Hashtables
+<a name="hash"></a>
+[Code](src/main/java/hashtable/Hashtable.java)
 <!-- Short summary or background information -->
 Implement a Hashtable with the following methods:
 `add`, `get`, `contains`, `hash`.
@@ -188,4 +192,20 @@ TBD
 
 ### API
 <!-- Description of each method publicly available in each of your hashtable -->
+TBD
+
+## Repeated Word
+<a name="repeat"></a>
+[Code](src/main/java/RepeatedWord.java)
+
+Write a function that accepts a lengthy string parameter.
+Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
+
+### Challenge
+Iterate over the given string, return the first word that gets repeated.
+
+### Approach
+TBD
+
+### Solution
 TBD
