@@ -19,6 +19,8 @@
 
 * [Lecture notes (sorts)](challenges/README.md)
 
+* [Hashset](#hash)
+
 
 
 ## Reverse an Array
@@ -170,3 +172,20 @@ We created a holder stack and a primary stack. The result being the bottom of th
 
 
 `.peek` - to be used before using .push or .pop. peek takes a look at the value of the current front and returns it.
+
+## Hashtables
+<!-- Short summary or background information -->
+Implement a Hashtable with the following methods:
+`add`, `get`, `contains`, `hash`.
+
+### Challenge
+<!-- Description of the challenge -->
+Recreate a hashset, with the 3 given methods.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+TBD
+
+### API
+<!-- Description of each method publicly available in each of your hashtable -->
+TBD
