@@ -23,6 +23,8 @@
 
 * [Repeated Word](#repeat)
 
+* [Tree Intersection](#intersect)
+
 
 
 ## Reverse an Array
@@ -209,3 +211,15 @@ TBD
 
 ### Solution
 TBD
+
+## Tree Intersection
+<a name="intersect"></a>
+[Code](src/main/java/TreeIntersection.java)
+
+Write a function called `tree_intersection` that takes two binary tree parameters. Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
+
+### Challenge
+Iterate over the two given trees, return a list of values that are present in both trees.
+
+### Approach
+![Tree Intersection](assests/treeIntersection.jpg)
