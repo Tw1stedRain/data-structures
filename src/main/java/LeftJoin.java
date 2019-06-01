@@ -2,7 +2,7 @@ import hashtable.Hashtable;
 
 public class LeftJoin {
 
-    public String[][] leftJoin(Hashtable left, Hashtable right) {
-
-    }
+//    public String[][] leftJoin(Hashtable left, Hashtable right) {
+//
+//    }
 }
