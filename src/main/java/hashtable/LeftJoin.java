@@ -1,3 +1,5 @@
+package hashtable;
+
 import hashtable.Hashtable;
 
 public class LeftJoin {

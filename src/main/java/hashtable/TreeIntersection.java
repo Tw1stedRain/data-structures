@@ -1,3 +1,5 @@
+package hashtable;
+
 import tree.BinaryTree;
 
 import java.util.List;
