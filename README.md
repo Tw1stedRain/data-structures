@@ -27,6 +27,8 @@
 
 * [Left Join](#left)
 
+*[Graph](#graph)
+
 
 
 ## Reverse an Array
@@ -249,3 +251,25 @@ I decided to make the `return` value a String matrix. Where the outer array is t
 ### Solution
 
 ![Example](assests/leftJoin.jpg)
+
+## Graph
+<a name="graph"></a>
+[Code](src/main/java/graphs/Graph.java)
+
+Create your own graph implementing the following methods:
+
+* `addNode()` - takes in a value, adds a new node with that value to the graph
+
+* `addEdge()` -takes in two (already existing) nodes, and adds a new edge between them
+
+* `getNodes()` - returns a collection of all nodes in the graph
+
+* `size()` - returns the number of nodes in the graph
+
+### Challenge
+
+Implementing a new data structure and it's methods in an understandable way.
+
+### Approach
+
+### Solution
