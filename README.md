@@ -17,6 +17,16 @@
 
 * [PseudoQ](#PseudoQ)
 
+* [Lecture notes (sorts)](challenges/README.md)
+
+* [Hashset](#hash)
+
+* [Repeated Word](#repeat)
+
+* [Tree Intersection](#intersect)
+
+* [Left Join](#left)
+
 
 
 ## Reverse an Array
@@ -168,3 +178,74 @@ We created a holder stack and a primary stack. The result being the bottom of th
 
 
 `.peek` - to be used before using .push or .pop. peek takes a look at the value of the current front and returns it.
+
+## Hashtables
+<a name="hash"></a>
+[Code](src/main/java/hashtable/Hashtable.java)
+<!-- Short summary or background information -->
+Implement a Hashtable with the following methods:
+`add`, `get`, `contains`, `hash`.
+
+### Challenge
+<!-- Description of the challenge -->
+Recreate a hashset, with the 3 given methods.
+
+### Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+TBD
+
+### API
+<!-- Description of each method publicly available in each of your hashtable -->
+TBD
+
+## Repeated Word
+<a name="repeat"></a>
+[Code](src/main/java/RepeatedWord.java)
+
+Write a function that accepts a lengthy string parameter.
+Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
+
+### Challenge
+Iterate over the given string, return the first word that gets repeated.
+
+### Approach
+TBD
+
+### Solution
+TBD
+
+## Tree Intersection
+<a name="intersect"></a>
+[Code](src/main/java/TreeIntersection.java)
+
+Write a function called `tree_intersection` that takes two binary tree parameters. Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
+
+### Challenge
+Iterate over the two given trees, return a list of values that are present in both trees.
+
+### Approach
+![Tree Intersection](assests/treeIntersection.jpg)
+
+## Left Join
+<a name="left"></a>
+[Code](src/main/java/LeftJoin.java)
+
+Write a function that `leftJoins` two Hashmaps.
+
+   * The first parameter is a hashmap that has word strings as keys, and a synonym of the key as values.
+   * The second parameter is a hashmap that has word strings as keys, and antonyms of the key as values.
+
+### Challenge
+
+`LeftJoin` two hashmaps; the output should contain every key/value pair from the first, or *left*, hashmap. The output should also contail the value of the second hashmap if the key exists in the first.
+
+### Approach
+
+I decided to make the `return` value a String matrix. Where the outer array is the length of the *left* hashmap, and the inner arrays have a length of 3.
+* First, I ran the *left* hashmap through a foreach, inserting each `key` of it at `resultsArray[x][1]` 
+* In the same foreach, I inserted the `value` of the *left* hashmap into `resultsArray[x][2]`
+* In an if statement wrapped in another foreach, i checked that the key at `resultsArray[x][1]` exists as a key in the *right* hashmap, if it does then the value gets set at `resultsArray[x][3]`, if it does not then `resultsArray[x][3]` becomes `NULL`
+
+### Solution
+
+![Example](assests/leftJoin.jpg)
