@@ -21,13 +21,18 @@
 
 * [Hashset](#hash)
 
-* [Repeated Word](#repeat)
+    * [Repeated Word](#repeat)
 
-* [Tree Intersection](#intersect)
+    * [Tree Intersection](#intersect)
 
-* [Left Join](#left)
+    * [Left Join](#left)
 
-*[Graph](#graph)
+* [Graph](#graph)
+
+    * [Bredth](#bredth)
+
+    * [Direct Flight](#direct)
+
 
 
 
@@ -273,3 +278,31 @@ Implementing a new data structure and it's methods in an understandable way.
 ### Approach
 
 ### Solution
+
+## Bredth
+<a name="bredth"></a>
+[Code](src/main/java/graphs/Graph.java)
+
+### Challenge
+
+### Approach
+
+### Solution
+
+## Direct Flight
+<a name="direct"></a>
+[Code](src/main/java/graphs/Graph.java)
+
+Write a function based on the specifications above, which takes in a graph, and an array of city names. Return whether the full trip is possible with direct flights, and how much it would cost.
+
+### Challenge
+
+Implement a method that can determine if it only takes one edge to get from one node to another; if it takes 1 edge return `true`, if it takes 2=< then return `false`. If you are returning `true`, then total the weight of all edges crossed as the total cost.
+
+### Approach
+
+TBD
+
+### Solution
+
+![Example](assests/direct.jpg)

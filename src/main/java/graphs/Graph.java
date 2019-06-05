@@ -34,4 +34,12 @@ public class Graph {
 
         return results;
     }
+
+    public Pair getEdge(Graph cities, String[] flightPath) {
+        boolean isDirect = false;
+        int cost = 0;
+        Pair results = new Pair(isDirect, cost);
+
+        return results;
+    }
 }
