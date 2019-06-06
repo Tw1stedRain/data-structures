@@ -32,6 +32,8 @@
     * [Bredth](#bredth)
 
     * [Direct Flight](#direct)
+    
+    * [Depth First](#depth)
 
 
 
@@ -306,3 +308,21 @@ TBD
 ### Solution
 
 ![Example](assests/direct.jpg)
+
+## Depth First
+<a name="depth"></a>
+[Code](src/main/java/graphs/Graph.java)
+
+Create a function that accepts an adjacency list as a graph, and conducts a depth first traversal. Return a collection of nodes in their pre-order depth-first traversal order.
+
+### Challenge 
+
+Implement a function that can traverse a graph (given by way of adjacency list) depth first. Then return the values of the graph in order.
+
+### Approach
+
+TBD
+
+### Solution
+
+![Example](assests/depth.jpg)

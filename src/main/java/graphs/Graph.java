@@ -42,4 +42,10 @@ public class Graph {
 
         return results;
     }
+
+    public List<Node> depth(List<Node> adj) {
+        List<Node> results = new ArrayList<>();
+
+        return results;
+    }
 }
